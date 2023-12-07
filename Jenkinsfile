@@ -4,7 +4,7 @@ node {
     env.IMAGE = 'ajamahyannick/bluegreen-rollout-oct'
 
     stage('Clone repository') {
-             git branch: 'main', url: 'https://github.com/YannickA2023/rollout-manifests/tree/main'  
+             git branch: 'main', url: 'https://github.com/YannickA2023/rollout-manifests.git'  
     }
 
     stage('Update GIT') {
